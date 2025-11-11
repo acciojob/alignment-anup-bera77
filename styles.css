@@ -1,1 +1,84 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+
+.middle {
+    margin: 30px auto;
+    border-collapse: collapse;
+	border-spacing:1px;
+    width: 100%;
+   
+    
+}
+
+h1 {
+    text-align: center;
+   
+}
+
+/* Table 1 specific styles */
+#table-1 {
+    border: 2px solid black;
+}
+
+.middle td.center {
+    text-align: center;
+    
+}
+
+.middle td.right {
+    text-align: right;
+    
+}
+
+.middle td {
+    border: 1px solid black;
+    padding: 1px;
+   
+    
+}
+
+
+
+/* Table 2 specific styles */
+#table-2 {
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+/* Table 3 specific styles */
+#table-3 {
+    border: 2px solid #27ae60;
+}
+
+.green {
+    background-color: green !important;
+    color: white;
+    font-weight: bold;
+}
+
+.blue {
+    background-color: blue !important;
+    color: white;
+    font-weight: bold;
+}
+
+#t-image {
+    text-align: center;
+    padding: 10px;
+}
+
+#t-image img {
+    border: 2px solid #bdc3c7;
+    border-radius: 4px;
+}
